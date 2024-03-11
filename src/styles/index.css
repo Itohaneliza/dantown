@@ -132,12 +132,12 @@ table {
   font-size: 20px;
   width: 109px;
   height: 27px;
-  /* margin-top: 42px; */
+  
 }
 
 .menuButton {
   padding: 15px 15px 15px 39px;
-  /* color: #8695a0; */
+  
   font-weight: 400;
   font-size: 14px;
   gap: 19px;
@@ -263,8 +263,7 @@ table {
   gap: 1.5rem;
   width: 238px;
   margin-top: 3px;
-  margin-right: 208px;
-  margin-left: 100px;
+  margin-left: 20px;
 }
 
 .flex-container p {
@@ -280,7 +279,7 @@ table {
 }
 
 .heading-lg {
-  font-size: 1.5rem; /* Adjust the size as needed */
+  font-size: 1.5rem; 
 }
 
 .text-medium {
@@ -297,7 +296,7 @@ table {
   justify-content: end;
   align-items: center;
   width: 100%;
-  margin-left: 100px;
+  margin-left: 0px;
 }
 
 @media screen and (max-width: 600px) {
@@ -315,14 +314,16 @@ table {
   width: 65%;
   display: flex;
   align-items: center;
-  /* margin-right: 153px; */
+  
 }
 
 .img-vector {
-  height: 4px;
+  height: 8px;
+  width: 10px;
   margin-bottom: 3px;
-  margin-right: -67px;
-  margin-left: 130px;
+  margin-right: 7px;
+  margin-left: -30px;
+  outline: 1px solid black;
 }
 
 .img-eight {
@@ -350,7 +351,7 @@ table {
   gap: 30px;
   bottom: 0;
   left: 0;
-  margin: auto;
+ 
   position: absolute;
   margin-right: 7px;
   margin-top: 10px;
@@ -359,10 +360,10 @@ table {
 .cardContainer {
   display: flex;
   flex-direction: row;
-  width: 720px;
+  width: 520px;
   height: 300px;
-  margin-left: 50px;
-  margin-top: -100px;
+  margin-left: -150px;
+  margin-top: -120px;
 }
 
 .card {
@@ -413,7 +414,6 @@ table {
 .heading-last {
   color: white;
   font-size: 16px;
- 
 }
 
 .text {
@@ -428,15 +428,15 @@ table {
   flex-direction: column;
   align-items: center;
   justify-content: start;
-  width: 720px;
-  height: 390px;
-  margin-left: 80px;
+  width: 620px;
+
+  margin-left: 10px;
   gap: 36px;
   padding: 23px;
   background: white;
   border-radius: 15px;
   margin-top: 20px;
-  margin-bottom: 10px;
+  
 }
 
 .rankHeader {
@@ -447,15 +447,21 @@ table {
   width: 100%;
 }
 .rankHeader .heading {
-  color: #0f3f62;
-  font-size: 16px;
+  color: #8695A0;
+  font-size: 14px;
 }
 
 .rankTable {
-  width: 720px;
+
   margin-bottom: 1.5px;
 }
-/* styles.css */
+
+.tableWrapper{
+  width: 520px;
+  margin-left: -100px;
+  /* background: white; */
+}
+
 
 .chat-container {
   display: flex;
@@ -463,7 +469,7 @@ table {
   align-items: center;
   justify-content: flex-start;
   width: 33%;
-  margin-top: 15px;
+ 
 }
 
 .chat-content {
@@ -472,7 +478,7 @@ table {
   justify-content: space-between;
   align-items: center;
   margin-top: 70px;
-  /* margin-right: 422px; */
+  margin-right: -102px;
 }
 
 .custom-text {
@@ -518,10 +524,15 @@ table {
   width: 100%;
   gap: 25px;
 }
+.sideHead{
+  display: flex;
+  
+}
 
 .chat-title {
   margin-bottom: 1px;
   letter-spacing: 0.36px;
+
 }
 
 .indicator {
@@ -548,7 +559,7 @@ table {
   width: 37px;
   height: 24px;
   padding: 3px;
-  color: teal; /* Replace with actual color */
+  color: teal; 
   letter-spacing: 0.26px;
   text-align: center;
   border-radius: 12px;
@@ -563,46 +574,38 @@ table {
   gap: 4%;
 }
 
-/* Styling for the user avatar */
+
 .user-avatar {
   height: 56px;
   width: 56px;
   border-radius: 50%;
-  /* Add background color and other styles as needed */
+
 }
 
-/* Styling for the user text content */
-.user-text-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: start;
-  width: 73%;
-  gap: 3px;
-}
+ 
 
-/* Styling for the notification badge */
+
 .notification-badge {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 24px;
   width: 24px;
-  background-color: #ff5722; /* Deep Orange 400 color */
+  background-color: #ff5722;
   border-radius: 50%;
-  color: #ffffff; /* White color */
-  font-size: 0.75rem; /* Adjust font size as needed */
+  color: #ffffff; 
+  font-size: 0.75rem; 
   font-weight: bold;
 }
 
-/* Styling for the horizontal line */
+
 .hr-line {
   width: 248px;
   height: 1px;
   background-color: #edf2f7;
 }
 
-/* Add more styles as needed */
+
 
 .FlexContainer {
   display: flex;
@@ -682,9 +685,7 @@ table {
   flex-direction: row;
   justify-content: start;
   align-items: center;
-  /* width: 97%; */
-  /* margin-right: 9px; */
-  /* gap: 2.5px; */
+  
 }
 
 .question-box {
@@ -744,7 +745,7 @@ table {
 .input-container .input-img {
   position: absolute;
 
-  right: 150px;
+  right: 180px;
   transform: translateY(58%);
   width: 20px;
   height: auto;
@@ -753,6 +754,7 @@ table {
 .input-containers {
   display: flex;
   justify-content: start;
+  margin-left: 130px;
 }
 
 .round-input {
@@ -775,13 +777,12 @@ table {
   }
 }
 
-/* styles.css */
+
 
 .flex-container {
   display: flex;
   flex-direction: column;
-  /* height: 320px; */
-  /* width: 320px; */
+  
   gap: 4px;
 }
 
@@ -789,7 +790,7 @@ table {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 100%; */
+  
 }
 
 .flex-header-left {
@@ -825,10 +826,7 @@ table {
   color: #0f3f62;
 }
 
-/* .text-medium {
-  font-weight: 500;
-  letter-spacing: 0.28px;
-} */
+
 
 .flex-header-right {
   display: flex;
@@ -858,8 +856,7 @@ table {
   margin: 8px 0;
   width: 228px;
   margin-left: 15px;
-  /* margin-bottom: 26px; */
-  /* margin-top: 15px; */
+  
 }
 
 .flex-content {
@@ -870,11 +867,6 @@ table {
   gap: 4px;
 }
 
-/* Add similar styles for other elements in your HTML structure */
-
-/* Customize as needed */
-
-/* styles.css */
 
 .flexs-containers {
   display: flex;
@@ -888,14 +880,13 @@ table {
   background-color: #5dc2c4;
 }
 
-/* styles.css */
 
 .flexer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 9px;
-  /* background-color: #e0f2f1; teal-50 color */
+ 
   border-radius: 10px;
 }
 
@@ -904,7 +895,7 @@ table {
   text-align: center;
   padding: 8px;
   border-radius: 50px;
-  font-size: 1rem; /* Adjust the font size as needed */
+  font-size: 1rem; 
   letter-spacing: 0.26px;
   color: #5dc2c4;
 }

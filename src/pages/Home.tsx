@@ -128,7 +128,7 @@ export default function LandingPage() {
     <>
       <div className="container">
         <div className="inner-container">
-          <Sidebar width="240px !important">
+          <Sidebar width="170px !important">
             <div className="header">
               <div className="logo-container">
                 <Img
@@ -248,18 +248,11 @@ export default function LandingPage() {
                   Discussion
                 </MenuItem>
               </div>
-              
+
               <div className="menuDivider" />
 
-              <div
-                className="flex categoryContainer"
-                
-              >
-                <Heading
-                  as="h6"
-                  className="categoryTitle"
-                  
-                >
+              <div className="flex categoryContainer">
+                <Heading as="h6" className="categoryTitle">
                   Category
                 </Heading>
                 <div className="flex flex-col items-center justify-start w-full gap-1.5 md:gap-[6.00px]">
@@ -386,31 +379,15 @@ export default function LandingPage() {
                   </div>
                 </div>
               </header>
-              <div
-            
-                className="flex flex-col items-center justify-start w-[33%] md:w-full mt-[-41px]"
-              >
-                <div
-                  className="chat-content"
-                 
-                >
-                  <div
-                    className="divider"
-                    
-                  />
-                  <div
-                    className="chat-inner"
-
-                  >
-                    <div
-                      className="sideHeader"
-                     
-                    >
-                      <div
-                        
-                        className="flex flex-row justify-start w-[30%] md:w-full"
-                      >
-                        <div className="flex flex-row justify-start items-center w-full gap-2.5">
+              <div className="flex flex-col items-center justify-start w-[33%] md:w-full mt-[-41px]">
+                <div className="chat-content">
+                  <div className="divider" />
+                  <div className="chat-inner">
+                    <div className="sideHeader">
+                      <div className="flex flex-row justify-start w-[30%] md:w-full">
+                        <div className="sideHead"
+                        //  className="flex flex-row justify-start items-center w-full gap-2.5"
+                         >
                           <Heading
                             size="s"
                             as="h1"
@@ -423,48 +400,21 @@ export default function LandingPage() {
                           </div>
                         </div>
                       </div>
-                      <div
-
-                        className="flex flex-col h-[320px] w-[320px] gap-4 md:gap-1"
-                      >
-                        <div
-                          className="flex-header"
-                          
-                        >
-                          <div
-                            className="flex-header-left"
-                           
-                          >
-                            <div
-                             
-                              className="h-[26px] w-[16px] bg-blue-50 rounded-[50%]"
-                            />
-                            <div
-                              className="content"
-                              
-                            >
+                      <div className="flex flex-col h-[320px] w-[320px] gap-4 md:gap-1">
+                        <div className="flex-header">
+                          <div className="flex-header-left">
+                            <div className="h-[26px] w-[16px] bg-blue-50 rounded-[50%]" />
+                            <div className="content">
                               <Heading as="h2" className="headings">
                                 Ironmen
                               </Heading>
-                              <Text
-                                as="p"
-                                className="text-medium"
-                               
-                              >
+                              <Text as="p" className="text-medium">
                                 When will the event be held?
                               </Text>
                             </div>
                           </div>
-                          <div
-                            
-                            className="flex flex-col items-center justify-start h-[24px] w-[24px]"
-                          >
-                            <Text
-                              size="xs"
-                              as="p"
-                              className="notification"
-                             
-                            >
+                          <div className="flex flex-col items-center justify-start h-[24px] w-[24px]">
+                            <Text size="xs" as="p" className="notification">
                               1
                             </Text>
                           </div>
@@ -477,11 +427,7 @@ export default function LandingPage() {
                             <Heading as="h2" className="headings">
                               Ariana Grande
                             </Heading>
-                            <Text
-                              as="p"
-                              className="text-medium"
-                             
-                            >
+                            <Text as="p" className="text-medium">
                               Alright then. See you there
                             </Text>
                             <hr className="hr" />
@@ -494,11 +440,7 @@ export default function LandingPage() {
                             <Heading as="h2" className="headings">
                               Ariana Grande
                             </Heading>
-                            <Text
-                              as="p"
-                              className="text-medium"
-                             
-                            >
+                            <Text as="p" className="text-medium">
                               Come on join to my party!
                             </Text>
                             <hr className="hr" />
@@ -521,60 +463,24 @@ export default function LandingPage() {
                     <div className="flex flex-col items-center justify-start w-full pb-6 sm:pb-5 bg-white-A700 rounded-[15px]">
                       <div className="flexs-containers">
                         <div className="FlexContainer">
-                          <div
-                            className="HeadingContainer"
-                           
-                          >
-                            <Heading
-                              as="h6"
-                              className="heading-last"
-                              
-                            >
+                          <div className="HeadingContainer">
+                            <Heading as="h6" className="heading-last">
                               Ironmen
                             </Heading>
                           </div>
                         </div>
-                        <Img
-                          src="images/img_group_32.svg"
-                          alt="image_nine"
-                          
-                        />
+                        <Img src="images/img_group_32.svg" alt="image_nine" />
                       </div>
-                      <div
-                        className="text-container"
-                       
-                      >
-                        <Text
-                          size="xs"
-                          as="p"
-                         
-                          className="text-box"
-                        >
+                      <div className="text-container">
+                        <Text size="xs" as="p" className="text-box">
                           Today
                         </Text>
-                       
                       </div>
-                      <div
-                        className="info-container"
-                       
-                      >
-                        <div
-                          className="question-container"
-                          
-                        >
-                          <div
-                            className="question-box"
-                            
-                          >
-                            <div
-                              className="flexer-container"
-                            
-                            >
-                              <Button
-                                shape="round"
-                                className="round-button"
-                                
-                              >
+                      <div className="info-container">
+                        <div className="question-container">
+                          <div className="question-box">
+                            <div className="flexer-container">
+                              <Button shape="round" className="round-button">
                                 When will the event be held?
                               </Button>
                             </div>
@@ -645,72 +551,36 @@ export default function LandingPage() {
                     </Text>
                   </div>
                 </div>
-                <div
-                  className="card"
-                  
-                >
-                  <div
-                    className="cardHeader"
-                    
-                  >
+                <div className="card">
+                  <div className="cardHeader">
                     <Img
                       src="images/img_group_126.svg"
                       alt="image"
                       className="cardImage"
-                      
                     />
                   </div>
-                  <div
-                    className="cardContent"
-                   
-                  >
-                    <Heading
-                      as="h6"
-                      className="heading"
-                     
-                    >
+                  <div className="cardContent">
+                    <Heading as="h6" className="heading">
                       Yoga Forces
                     </Heading>
-                    <Text
-                      as="p"
-                      className="text"
-                     
-                    >
+                    <Text as="p" className="text">
                       Welcome to the biggest...
                     </Text>
                   </div>
                 </div>
-                <div
-                  className="card"
-                 
-                >
-                  <div
-                    className="cardHeader"
-                    
-                  >
+                <div className="card">
+                  <div className="cardHeader">
                     <Img
                       src="images/img_group_127.svg"
                       alt="image"
                       className="cardImage"
-                     
                     />
                   </div>
-                  <div
-                    className="cardContent"
-                    
-                  >
-                    <Heading
-                      as="h6"
-                      className="heading"
-                      
-                    >
+                  <div className="cardContent">
+                    <Heading as="h6" className="heading">
                       Skater Boys
                     </Heading>
-                    <Text
-                      as="p"
-                      className="text"
-                      
-                    >
+                    <Text as="p" className="text">
                       The best states of skaters.
                     </Text>
                   </div>
